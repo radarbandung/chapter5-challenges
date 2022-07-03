@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Challenge Chapter 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css"/>
+  </head>
+
+  <body style="margin:0;padding:0">
+
+    <!--Main Background-->
+    <div class="mainscreen_bg">
+
+    <!--Navigation Bar-->
+      <nav class="navtop">
+        <div class="container">
+        <header class="d-flex flex-wrap">
+          <ul class="nav col-2 justify-content-start">
+            <li><a href="#" class="nav-link px-2 link-light fw-bold text-uppercase" style="font-size: 1.302vw;" id="font-open">Logo</a></li>
+          </ul>
+          <ul class="nav col-7 justify-content-center">
+            <li><a href="#" class="nav-link px-2 link-light text-uppercase" id="font-open">Home</a></li>
+            <li><a href="#" class="nav-link px-2 link-light text-uppercase" id="font-open">Work</a></li>
+            <li><a href="#" class="nav-link px-2 link-light text-uppercase" id="font-open">Contact</a></li>
+            <li><a href="#" class="nav-link px-2 link-light text-uppercase" id="font-open">About Me</a></li>
+          </ul>
+        <div class="nav col-3 justify-content-end">
+          <button type="button" class="btn btn-transparent text-light me-2 text-uppercase fw-bold" id="font-open" style="font-size:0.937vw;">Sign Up</button>
+          <button type="button" class="btn btn-transparent text-light text-uppercase fw-bold" id="font-open" style="font-size:0.937vw;">Login</button>
+        </div>
+        </div>
+        </header>
+      </nav>
+
+    <!--Main Title-->
+      <div class="mainscreen">
+        <div class="main-title"><h1>PLAY TRADITIONAL GAME</h1></div>
+        <div class="main-subtitle"><h3>Experience new traditional game play</h3></div>
+        <div class="main-button"><button type="button" class="btn btn-warning" style="font-size: 1.041vw;"><a href = "../game/">Play now</a></button></div>
+        <div class="main-story"><p>The Story</p></div>
+        <img src="./assets/scroll-down.svg" class="img-fluid bg-transparent">
+      </div>
+    </div>
+
+    <!--Features 1-->
+    <div class="feature1_bg">
+      <div class="feature1" id="about">
+        <div style="display: flex">
+          <div class="feature1_text1">What's so special?</div>
+        </div>
+        <div style="display: flex">
+          <div class="feature1_text2">The Games</div>
+        
+    <!--Features 1 Carrousel-->
+        <div style=width:70%>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/rockpaperstrategy-1600.jpg" class="d-block w-75 mx-auto" alt="">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Features 2-->
+    <div class="feature2_bg">
+      <div class="d-flex flex-wrap justify-content-center">
+      <div class="feature2" id="gamesfeature">
+        <div style="width: 50%">
+        <div class="feature2_text1">What's so special?</div>
+        <div class="feature2_text2">Features</div>
+          <ul>
+            <li class="text-warning text-uppercase" style="margin-top: 70px; font-size: 2.083vw;">Traditional Games</li>
+            <p style="margin-top:10px">If you miss your childhood, we provide <br>many traditional games here</p>
+            <li class="text-warning text-uppercase" style="margin-top: 70px; font-size: 2.083vw;">Game Suit</li>
+            <li class="text-warning text-uppercase" style="margin-top: 70px; font-size: 2.083vw;">TBD</li>           
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!--Features 3-->
+    <div class="feature3_bg">   
+      <div class="d-flex flex-wrap justify-content-center">
+        <div class="feature3" id="requirements"> 
+      <div class="container">
+        <div class="row text-white">
+          <div class="col-12" id="f3head">Can My Computer Run this game?</div>
+          <div class="col-6" id="f3req"><h2>System <br>Requirements</h2></div>
+          <div class="col-6"></div>
+          <div class="col-3 border border-1 border-light"><h4>OS: </h4><h5>Windows 7 64-bit only<br>(No OSX support at this time)</h5></div>
+          <div class="col-3 border border-1 border-light"><h4>Processor:</h4><h5>Intel Core 2 Duo @ 2.4 GHZ or <br>AMD Athlon X2 @ 2.8 GHZ</h5></div>
+          <div class="col-6"></div>
+          <div class="col-3 border border-1 border-light"><h4>Memory :</h4><h5>4GB RAM</h5></div>
+          <div class="col-3 border border-1 border-light"><h4>Storage:</h4><h5>8GB available space</h5></div>
+          <div class="col-6"></div>
+          <div class="col-6 border border-1 border-light"><h4>Graphics:</h4><h5>NVIDIA GeForce GTX 660 2GB or <br>AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</h5></div>
+          <div class="col-6"></div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+
+    <!--Features 4-->
+    <div class="feature4_bg">  
+      <div class="feature4" id="quotes">
+        <div class="container-fluid align-self-center text-nowrap">
+          <div class="feature4_text1 ms-5">Top scores</div>
+          <div class="feature4_text2 ms-5">This top score from various games provided<br>on this platform</div>
+          <div class="feature4_button d-grid gap-2 col-6 ms-5"><button type="button" class="btn btn-warning btn-lg fw-bold" style="font-size:1.302vw;">See more</button></div>
+        </div>  
+
+    <!--Features 4 Card-->
+    <div class="container-fluid align-self-center">
+    <div class="row d-flex justify-content-end">
+      <div class="col-6 my-2 me-4">
+        <div class="card bg-dark">
+          <div class="card-body">
+            <div class="row align-content-start">
+              <div class="col-3 d-flex">
+                <img src="./assets/evan-lahti.jpg"
+                  class="rounded-circle img-fluid shadow-1" width="70" height="70">
+              </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-warning ms-4 mb-0" style="font-size: 1.562vw">Evan Lahti</p>
+                <p class="text-white-50 ms-4 mb-0">PC Gamer</p>
+              </div>
+            </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-white fw-light mt-3">"One of gaming highlights of the year."</p>
+                <p class="text-white-50 mb-0">June 18, 2021</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-evenly">
+      <div class="col-6 my-2 me-5">
+        <div class="card bg-dark">
+          <div class="card-body">
+            <div class="row align-content-start">
+              <div class="col-3 d-flex">
+                <img src="./assets/jada-griffin.jpg"
+                  class="rounded-circle img-fluid shadow-1" width="70" height="70">
+              </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-warning ms-4 mb-0" style="font-size: 1.562vw">Jada Griffin</p>
+                <p class="text-white-50 ms-4 mb-0">Nerdreactor</p>
+              </div>
+            </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-white fw-light mt-3">"The next big thing in the world of streaming<br>and survival games."</p>
+                <p class="text-white-50 mb-0">July 10, 2021</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-flex justify-content-end">
+      <div class="col-6 my-2 me-5">
+        <div class="card bg-dark">
+          <div class="card-body">
+            <div class="row align-content-start">
+              <div class="col-3 d-flex">
+                <img src="./assets/aaron-williams.jpg"
+                  class="rounded-circle img-fluid shadow-1" width="70" height="70">
+              </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-warning ms-4 mb-0" style="font-size: 1.562vw">Aaron Williams</p>
+                <p class="text-white-50 ms-4 mb-0">Uproxx</p>
+              </div>
+            </div>
+              <div class="col-2 text-nowrap">
+                <p class="text-white fw-light mt-3">"Snoop Dogg Playing The Wildly Entertaining<br>'SOS' is Ridiculous."</p>
+                <p class="text-white-50 mb-0">December 24, 2018</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </div>
+
+    <!--Features 5-->
+    <div class="feature5_bg"> 
+      <div class="feature5">
+        <div class="d-flex w-50 mx-auto justify-content-center">
+          <img src="./assets/skull.png" class="img-fluid rounded-pill">
+        </div>
+        <div class="d-flex w-50 align-items-start text-white" class="feature5_text;">
+          <div class="container">
+            <div class="row align-items-start">
+              <div class="col-12" style="font-size: 1.562vw;">
+                Want to stay in <br>touch?
+              </div>
+            <div class="row align-items-center">
+              <div class="col-12 text-uppercase text-wrap" style="font-size: 3.125vw; margin-top: 20px;">
+                Newsletter Subscribe
+              </div>
+            <div class="row align-items-end" style="font-size: 1.041vw; margin-top: 20px;">
+              <div class="col-12 text-wrap">
+                In order to start receiving our news, all you have to do is enter your email address. 
+                Everything else will be taken care by us.
+                We will send you emails containing information about game. We don't spam.
+              </div>
+            </div>
+            </div>
+            </div>
+
+    <!--Email & Subscribe-->
+            <div class="row g-0" style="margin-top: 50px;">
+              <div class="col-6">
+                <div class="form-floating">
+                  <input type="email" class="form-control bg-dark text-warning border-dark" id="floatingInputGrid"  placeholder="name@example.com" value="youremail@binar.co.id">
+                  <label for="floatingInputGrid" class="text white" style="font-size: 0.937vw;">Your email address</label>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="form-floating">
+                  <input type="button" class="btn btn-warning btn-lg fw-bold" style="margin-top: 5px; margin-left: 30px; font-size: 1.302vw;" type="button" value="Subscribe now">
+                </div>
+              </div>
+            </div>                    
+          </div>
+        </div>
+      </div>
+
+    <!--Bottom Navigation Bar & Footer-->
+      <nav class="navigationbot">
+          <div class="container">
+          <div class="d-flex flex-wrap bg-black">
+            <ul class="nav col-9 justify-content-end mx-6 py-3 border-bottom border-white" style="--bs-border-opacity: .5;">
+              <li><a href="#" class="nav-link px-2 link-light text-uppercase"  id="font-open">Home</a></li>
+              <li><a href="#about" class="nav-link px-2 link-light text-uppercase" id="font-open">About</a></li>
+              <li><a href="#gamesfeature" class="nav-link px-2 link-light text-uppercase" id="font-open">Game Features</a></li>
+              <li><a href="#requirements" class="nav-link px-2 link-light text-uppercase" id="font-open">System Requirements</a></li>
+              <li><a href="#quotes" class="nav-link px-2 link-light text-uppercase" id="font-open">Quotes</a></li>
+            </ul>
+          <div class="nav col-3 justify-content-end py-3 align-content-center border-bottom border-white" style="--bs-border-opacity: .5;">
+            <li class="nav-item mx-3"><a href="https:facebook.com"><img src="./assets/facebook.svg" class="img-fluid"></a></li>
+            <li class="nav-item mx-3"><a href="https:twitter.com"><img src="./assets/twitter.svg" class="img-fluid"></a></li>
+            <li class="nav-item mx-3"><a href="https:youtube.com"><img src="./assets/vector.svg" class="img-fluid"></a></li>
+            <li class="nav-item mx-3"><a href="https:twitch.tv"><img src="./assets/twitch.svg" class="img-fluid"></a></li>
+          </div>
+          </div>
+          </div>
+      </nav>
+
+      <footer class="navigationbot">
+        <div class="container">
+        <div class="d-flex flex-wrap bg-black py-3">
+          <ul class="nav col-6 justify-content-start" id="font-open">
+            <p class="text-white-50 justify-content-start align-items-start"> © 2018 Your Games, Inc. All Rights Reserved</p>
+          </ul>
+          <ul class="nav col-6 justify-content-end">
+            <li class="nav-item nav-link link-light text-uppercase" id="font-open">Privacy Policy</li>
+            <li class="nav-item nav-link link-light" id="font-open">|</a></li>
+            <li class="nav-item nav-link link-light text-uppercase" id="font-open">Terms of Services</a></li>
+            <li class="nav-item nav-link link-light" id="font-open">|</a></li>
+            <li class="nav-item nav-link link-light text-uppercase" id="font-open">Code of Conduct</a></li>
+          </ul>
+        </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

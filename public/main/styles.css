@@ -1,0 +1,251 @@
+.navtop {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 0.937vw;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: center;
+  background-color: black;
+  color:white;
+  opacity: 30%;
+}
+
+.mainscreen_bg {
+  background-image: url("../assets/main-bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+.mainscreen {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main-title {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+}
+
+.main-subtitle {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+}
+
+.main-button {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 200px;
+}
+
+.main-button a {
+  color: black;
+}
+
+.main-story {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feature1_bg {
+  background-image: url("../assets/the-games-bg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+.feature1 {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.feature1_text1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.302vw;
+  width: 30%;
+  text-align: start;
+  padding-left: 100px;
+}
+
+.feature1_text2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.21vw;
+  text-transform: uppercase;
+  width: 30%;
+  text-align: start;
+  padding-left: 100px;
+}
+
+.feature1_carrousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature2_bg {
+  background-image: url("../assets/features.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+.feature2 {
+  height: 120vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: white;
+  padding-left: 100px;
+  white-space: nowrap;
+}
+
+.feature2_text1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.302vw;
+}
+
+.feature2_text2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.125vw;
+  text-transform: uppercase;
+}
+
+.feature3_bg {
+  background-image: url("../assets/requirements.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 120vh;  
+}
+
+#f3head {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size:1.302vw;
+}
+
+.feature3 {
+  height: 120vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  white-space: nowrap;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#f3req {
+  text-transform: uppercase;
+  font-size:3.125;
+  margin:0;
+}
+
+.feature4_bg {
+  background-image: url("../assets/top-score-bg\(2\).png"), url("../assets/top-score-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat, no-repeat;
+  height: 120vh;
+}
+
+.feature4 {
+  height: 120vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content:center;
+  color: white;
+}
+
+.feature4_text1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.125vw;
+  width: 30%;
+  text-align: start;
+  text-transform: uppercase;
+  padding-left: 100px;
+}
+
+.feature4_text2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.041vw;
+  width: 30%;
+  text-align: start;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+
+.feature4_button {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.feature5_bg {
+  background-image: url("../assets/newsletter.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 120vh;  
+}
+
+.feature5 {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.feature5_text {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 25px;
+}
+
+.navigationbot {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 0.937vw;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: end;
+  background-color: black;
+}
+
+#font-open {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 4.687vw;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 3.125vw;
+}
+
+h3 {
+  font-size: 1.562vw;
+}
+
+h4 {
+  color: rgb(255, 193, 7);
+  font-size: 1.562vw;
+}
+
+h5 {
+  font-size: 1.302vw;
+}
+
+p {
+  font-size: 1.041vw;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*font-family: 'Bebas Neue', cursive;*/

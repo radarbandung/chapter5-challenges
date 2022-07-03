@@ -1,0 +1,106 @@
+html, 
+body {
+    background-color: #9C835F;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    margin: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.back-btn {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #724C21;
+    margin: 0 1.5rem;
+}
+
+.logo {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #F9B23D;
+    margin: 0 1.5rem;
+}
+
+.game .row-one {
+    height: 70vh;
+}
+
+.game .image {
+    margin: 0.5rem;
+    padding: 1.5rem;
+}
+
+.img-rock,
+.img-paper,
+.img-scissors {
+    width: 8rem;
+    height: 7rem;
+}
+
+.game-icon {
+    background: #C4C4C4;
+    border-radius: 30px;
+}
+
+.player1 .img-rock,
+.player1 .img-paper, 
+.player1 .img-scissors {
+    cursor: pointer;
+}
+
+.player1 .img-rock:hover,
+.player1 .img-paper:hover, 
+.player1 .img-scissors:hover {
+    transform: rotate(20deg)
+}
+
+.versus {
+    color: #BD0000;
+    font-weight: 700;
+    font-size: 6rem;
+    margin: auto 0;
+}
+
+.result {
+    width: 15rem;
+    height: 9rem;
+    background: #4C9654;
+    margin: auto 0;
+    font-size: 2.5rem;
+    transform: rotate(-28.87deg);
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.restart {
+    width: 4rem;
+    height: 3.5rem;
+    cursor: pointer;
+    margin-bottom: 2.5rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
